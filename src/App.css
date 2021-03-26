@@ -1,33 +1,45 @@
-.hemakumar {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-size: 55px;
-    font-weight: bolder;
-    font-style: italic;
-    color: chartreuse;
-    text-align: center;
+*{
+    padding: 0;
+    margin: 0;
 }
+
+body {
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   font-size: 20px;
+}
+
+
+
+
 
 
 .app {
     width: 1000px;
     background: yellow;
+    color: honeydew;
     margin: 0  auto;
     text-align: center;
+    
+}
+
+.app p {
+    padding: 30px 50px
 }
 
 .red {
     background: red;
     height: 100px;
-   
+    
 }
 
 
+
 .blue {
-    background: green;
+    background: blue;
     height: 100px;
 }
 
 .green {
-    background: rosybrown;
+    background: green;
     height: 100px;
 }
