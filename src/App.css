@@ -6,3 +6,28 @@
     color: chartreuse;
     text-align: center;
 }
+
+
+.app {
+    width: 1000px;
+    background: yellow;
+    margin: 0  auto;
+    text-align: center;
+}
+
+.red {
+    background: red;
+    height: 100px;
+   
+}
+
+
+.blue {
+    background: green;
+    height: 100px;
+}
+
+.green {
+    background: rosybrown;
+    height: 100px;
+}
