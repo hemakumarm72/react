@@ -1,30 +1,20 @@
 import './App.css';
 import React from 'react';
 
-const Red = () => (
-  <div className="red">
-    <p>Red</p>
-  </div>
-);
-
-const Blue = () => (
-  <div className="blue">
-    <p>Blue</p>
-  </div>
-);
-
-const Green = () => (
-  <div className="green">
-    <p>green</p>
+const Color = ({ title }) => (
+  <div className="red" style={{ background: title }}>
+    <p>{title}</p>
   </div>
 );
 
 const App = () => (
   <div className="app">
 
-    <Red />
-    <Blue />
-    <Green />
+    <Color title="red" />
+    <Color title="blue" />
+    <Color title="green" />
+    <Color title="yellow" />
+    <Color title="pink" />
 
   </div>
 );
